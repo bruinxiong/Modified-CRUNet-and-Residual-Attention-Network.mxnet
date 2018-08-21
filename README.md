@@ -8,7 +8,7 @@ A MXNet implementation of modified CRUNet
 
 [1]  [Yunpeng Chen](https://github.com/cypw), Xiaojie Jin, Bingyi Kang, Jiashi Feng, Shuicheng Yan. ["Sharing Residual Units Through Collective Tensor Factorization To Improve Deep Neural Networks"](https://www.ijcai.org/proceedings/2018/0088.pdf) IJCAI 2018.
 
-ImageNet Pretrained-model can be downloaded at author's [github](https://github.com/cypw/CRU-Net)
+ImageNet Pre-trained models can be downloaded at author's [github](https://github.com/cypw/CRU-Net)
 
 [2] Jiankang Deng, [Jia Guo](https://github.com/deepinsight/insightface), Stefanos Zafeiriou. ["ArcFace: Additive Angular Margin Loss for Deep Face Recognition"](https://arxiv.org/pdf/1801.07698v1.pdf)
 
