@@ -13,7 +13,7 @@ we remove the following max pooling layer with 3x3 kernel size and 2 stride.
 
 **4**. We follow the output setting mentioned in [2]. Specifically, we choose Option-E with structure of BN-Dropout-FC-BN after the last convolutional layer, where Dropout means dropout layer and FC denotes fully connected layer.
 
-**This modified Residual Attention Network architecture can be directly integrated into the library of [insightface](https://github.com/deepinsight/insightface).**
+**This modified Collective Residual Unit Network architecture can be directly integrated into the library of [insightface](https://github.com/deepinsight/insightface).**
 
 In order to verify the performance of our modified CRUNet 116, we train it with arcface loss on data given by deepinsight and deploy data mirror, data color and random crop augmentation and adopt 80 batch size on 8 GPUs. Finally,  
 **LFW: 0.99867+-0.00180;  
