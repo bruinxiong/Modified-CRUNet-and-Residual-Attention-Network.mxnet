@@ -60,6 +60,7 @@ The receptive field comparison between mask branch and trunk branch is illustrad
 
 <img src="Receptive_field_comparison.png" width="50%" height="50%" align=left>
 
+
 The original Residual Attention Network (Attention 92) for ImageNet is based on the following table:
 
 ![](Residual_Attention_Network_architecture_for_ImageNet.png)
