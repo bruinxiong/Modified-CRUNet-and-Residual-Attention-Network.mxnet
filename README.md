@@ -64,7 +64,7 @@ The original Residual Attention Network (Attention 92) for ImageNet is based on 
 
 <img src="Residual_Attention_Network_architecture_for_ImageNet.png" width="50%" height="50%" align=left/>
 
-We implement the modified Residual Attention Network based on original Attention 92.
+We implement the modified Residual Attention Network based on original Attention 92. This MXNet implementation is refered to [tengshaofeng's](https://github.com/tengshaofeng/) [PyTorch version](https://github.com/tengshaofeng/ResidualAttentionNetwork-pytorch).
 
 ## What's the difference between modified version and original version ?
 **1**. The size of input data is 112x112 not 224x224. In order to preserve higher feature map resolution, we follow the setting of input in [2]. Specifically, The first convolution layer with 7x7 kernel size and 2 stride is replaced by 3x3 kernel size and 1 stride. Moreover, 
