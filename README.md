@@ -9,7 +9,7 @@ In this part, we implement a modified CRU-Net (**CRU-Net 56, 116**) architecture
 
 This is an illustration of a collective residual unit (CRU) building block.
 
-![](CRU_building_block.png)
+<img src="CRU_building_block.png" width="50%" height="50%" align=left/>
 
 The original CRU Networks (CRUNet 56 and CRUNet 116) are based on the following table:
 
@@ -62,7 +62,7 @@ The receptive field comparison between mask branch and trunk branch is illustrad
   
 The original Residual Attention Network (Attention 92) for ImageNet is based on the following table:
 
-![](Residual_Attention_Network_architecture_for_ImageNet.png)
+<img src="Residual_Attention_Network_architecture_for_ImageNet.png" width="60%" height="60%" align=left/>
 
 We implement the modified Residual Attention Network based on original Attention 92.
 
