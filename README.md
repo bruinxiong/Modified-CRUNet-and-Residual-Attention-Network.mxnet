@@ -3,7 +3,7 @@ We plan to release these two modified architectures implemented by MXNet for ima
 # Modified CRUNet.mxnet
 A MXNet implementation of modified CRUNet
 
-In this part, we implement a modified CRU-Net (**CRU-Net 56, 116**) architecture via [MXNet](http://mxnet.io/). It is described in the paper [Sharing Residual Units Through Collective Tensor Factorization To Improve Deep Neural Networks](https://www.ijcai.org/proceedings/2018/0088.pdf) proposed by [Yunpeng Chen](https://github.com/cypw), Xiaojie Jin, Bingyi Kang, Jiashi Feng, Shuicheng Yan. This paper is accepted by IJCAI 2018.
+In this part, we implement a modified CRU-Net (**CRU-Net 56, 116**) architecture via [MXNet](http://mxnet.io/). It is described in the paper [Sharing Residual Units Through Collective Tensor Factorization To Improve Deep Neural Networks](https://www.ijcai.org/proceedings/2018/0088.pdf) proposed by [Yunpeng Chen](https://github.com/cypw/), Xiaojie Jin, Bingyi Kang, Jiashi Feng, Shuicheng Yan. This paper is accepted by IJCAI 2018.
 
 ## Original architecture
 
@@ -15,7 +15,7 @@ The original CRU Networks (CRUNet 56 and CRUNet 116) are based on the following 
 
 ![](CRU_Network.png)
 
-We implement the modified CRU Networks based on original CRUNet 56 an CRUNet 116.
+We implement the modified CRU Networks based on original CRUNet 56 and CRUNet 116.
 
 ## What's the difference between modified version and original version ?
 **1**. The size of input data is 112x112 not 224x224. In order to preserve higher feature map resolution, we follow the setting of input in [2]. Specifically, The first convolution layer with 7x7 kernel size and 2 stride is replaced by 3x3 kernel size and 1 stride. Moreover, 
@@ -48,6 +48,23 @@ ImageNet Pre-trained models can be downloaded at author's [github](https://githu
 
 # Modified Residual-Attention-Network.mxnet
 A MXNet implementation of modified Residual Attention Network
+
+In this part, we implement a modified Residual Attention Network (**Attention 92**) architecture via [MXNet](http://mxnet.io/). It is described in the paper [Residual Attention Network for Image Classification](https://www.ijcai.org/proceedings/2018/0088.pdf) proposed by [Fei Wang](https://github.com/fwang91/), Mengqing Jiang, Chen Qian, Shuo Yan, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang. This paper is accepted by CVPR 2017 Spotlight.
+
+## Original architecture
+This is an example architecture of Residual attention network for ImageNet.
+
+![](Residual_Attention_Network_for_ImageNet.png)
+
+The receptive field comparison between mask branch and trunk branch is illustraded by the following figure:
+
+![](Receptive_field_comparison.png)
+
+The original Residual Attention Network (Attention 92) for ImageNet is based on the following table:
+
+![](Residual_Attention_Network_architecture_for_ImageNet.png)
+
+We implement the modified Residual Attention Network based on original Attention 92.
 
 ## What's the difference between modified version and original version ?
 **1**. The size of input data is 112x112 not 224x224. In order to preserve higher feature map resolution, we follow the setting of input in [2]. Specifically, The first convolution layer with 7x7 kernel size and 2 stride is replaced by 3x3 kernel size and 1 stride. Moreover, 
