@@ -20,7 +20,7 @@ we remove the following max pooling layer with 3x3 kernel size and 2 stride.
 
 **2**. We adopt the improved residual unit mentioned in [2]. Specifically, the improved residual unit is constructed by BN-Conv-BN-PReLu-Conv-BN, where BN denotes batch normalization layer, PReLu is Parametric Rectified Linear Unit activation layer and Conv means convolution layer.
 
-**3**. We replace all ReLu activation layers with PReLu activation layers in our whole achitecture.
+**3**. We replace all ReLu activation layers with PReLu activation layers in our whole architecture.
 
 **4**. We follow the output setting mentioned in [2]. Specifically, we choose Option-E with structure of BN-Dropout-FC-BN after the last convolutional layer, where Dropout means dropout layer and FC denotes fully connected layer.
 
