@@ -3,7 +3,10 @@ We plan to release these two modified architectures implemented by MXNet for ima
 # Modified CRUNet.mxnet
 A MXNet implementation of modified CRUNet
 
+In this part, we implement a modified CRU-Net (**CRU-Net 56, 116**) architecture via [MXNet](http://mxnet.io/). It is described in the paper [Sharing Residual Units Through Collective Tensor Factorization To Improve Deep Neural Networks](https://www.ijcai.org/proceedings/2018/0088.pdf) proposed by [Yunpeng Chen](https://github.com/cypw), Xiaojie Jin, Bingyi Kang, Jiashi Feng, Shuicheng Yan. This paper is accepted by IJCAI 2018.
+
 ## Original architecture
+
 This is an illustration of a collective residual unit (CRU) building block.
 
 ![](CRU_building_block.png)
