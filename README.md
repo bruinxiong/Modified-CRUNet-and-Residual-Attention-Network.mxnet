@@ -15,7 +15,7 @@ we remove the following max pooling layer with 3x3 kernel size and 2 stride.
 
 **This modified Residual Attention Network architecture can be directly integrated into the library of [insightface](https://github.com/deepinsight/insightface).**
 
-In order to verify the performance of our modified CRUNet 116, we train it with arcface loss on data given by deepinsight and deploy data mirror, data color and random crop augmentation and adopt 80 batch size on 8 GPUs.   Finally, **LFW: 0.99867+-0.00180;   CFP_FP: 0.98386+-0.00542;   CFP_FF: 0.99729+-0.00216;   CALFW: 0.95933+-0.01119;   CPLFW:0.92833+-0.01624;   AgeDB30: 0.97983+-0.00765.   All results come from the model trained at epoch 36.**
+In order to verify the performance of our modified CRUNet 116, we train it with arcface loss on data given by deepinsight and deploy data mirror, data color and random crop augmentation and adopt 80 batch size on 8 GPUs.  Finally, **LFW: 0.99867+-0.00180;  CFP_FP: 0.98386+-0.00542;  CFP_FF: 0.99729+-0.00216;  CALFW: 0.95933+-0.01119;  CPLFW:0.92833+-0.01624;  AgeDB30: 0.97983+-0.00765.  All results come from the model trained at epoch 36.**
 
 ## Reference
 
