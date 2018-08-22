@@ -58,7 +58,7 @@ This is an example architecture of Residual Attention Network for ImageNet.
 
 The receptive field comparison between mask branch and trunk branch is illustraded by the following figure:
 
-![](Receptive_field_comparison.png =600x400)
+![](Receptive_field_comparison.png){:height="50%" width="50%"}
 
 The original Residual Attention Network (Attention 92) for ImageNet is based on the following table:
 
