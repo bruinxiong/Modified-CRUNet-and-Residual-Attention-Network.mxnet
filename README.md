@@ -14,6 +14,16 @@ ImageNet Pre-trained models can be downloaded at author's [github](https://githu
 # Modified Residual-Attention-Network.mxnet
 A MXNet implementation of modified Residual Attention Network
 
+## What's the difference between modified version and original version ?
+**1**. The size of input data is 112x112 not 224x224. In order to preserve higher feature map resolution, we follow the setting of input in [2]. Specifically, The first convolution layer with 7x7 kernel size and 2 stride is replaced by 3x3 kernel size and 1 stride. Moreover, 
+we remove the following max pooling layer with 3x3 kernel size and 2 stride.
+
+**2**. We adopt the improved residual unit mentioned in [2]. Specifically, the improved residual unit is constructed by BN-Conv-BN-PReLu-Conv-BN, where BN denotes batch normalization layer, PReLu is Parametric Rectified Linear Unit activation layer and Conv means convolution layer.
+
+**3**. We replace all ReLu activation layers with PReLu activation layers in our whole achitecture.
+
+**4**. We follow the output setting mentioned in [2]. Specifically, we choose Option-E with structure of BN-Dropout-FC-BN after the last convolutional layer, where Dropout means dropout layer and FC denotes fully connected layer.
+
 ## Reference
 
 [1] Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yan, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang. ["Residual Attention Network for Image Classification"](https://arxiv.org/pdf/1704.06904.pdf) CVPR2017 Spotlight.
