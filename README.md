@@ -3,6 +3,17 @@ We plan to release these two modified architectures implemented by MXNet for ima
 # Modified CRUNet.mxnet
 A MXNet implementation of modified CRUNet
 
+## Original architecture
+This is an illustration of a collective residual unit (CRU) building block.
+
+![](CRU_building_block.png)
+
+The original CRU Networks (CRUNet 56 and CRUNet 116) are based on the following table:
+
+![](CRU_Network.png)
+
+We implement the modified CRU Networks based on original CRUNet 56 an CRUNet 116.
+
 ## What's the difference between modified version and original version ?
 **1**. The size of input data is 112x112 not 224x224. In order to preserve higher feature map resolution, we follow the setting of input in [2]. Specifically, The first convolution layer with 7x7 kernel size and 2 stride is replaced by 3x3 kernel size and 1 stride. Moreover, 
 we remove the following max pooling layer with 3x3 kernel size and 2 stride.
