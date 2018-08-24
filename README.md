@@ -80,7 +80,7 @@ we remove the following max pooling layer with 3x3 kernel size and 2 stride.
 
 ## Reference
 
-[1] Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yan, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang. ["Residual Attention Network for Image Classification"](https://arxiv.org/pdf/1704.06904.pdf) CVPR2017 Spotlight.
+[1] Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yan, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang. ["Residual Attention Network for Image Classification"](https://arxiv.org/pdf/1704.06904.pdf) CVPR 2017 Spotlight.
 
 [Caffe implementation](https://github.com/fwang91/residual-attention-network)
 
