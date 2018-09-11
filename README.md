@@ -49,7 +49,7 @@ ImageNet Pre-trained models can be downloaded at author's [github](https://githu
 # Modified Residual-Attention-Network.mxnet
 A MXNet implementation of modified Residual Attention Network
 
-In this part, we implement a modified Residual Attention Network (**Attention 92**) architecture via [MXNet](http://mxnet.io/). The original one is described in the paper [Residual Attention Network for Image Classification](https://www.ijcai.org/proceedings/2018/0088.pdf) proposed by [Fei Wang](https://github.com/fwang91/), Mengqing Jiang, Chen Qian, Shuo Yan, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang. This paper is accepted by CVPR 2017 Spotlight.
+In this part, we implement a modified Residual Attention Network (**Attention 92**) architecture via [MXNet](http://mxnet.io/). The original one is described in the paper [Residual Attention Network for Image Classification](https://arxiv.org/pdf/1704.06904.pdf) proposed by [Fei Wang](https://github.com/fwang91/), Mengqing Jiang, Chen Qian, Shuo Yan, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang. This paper is accepted by CVPR 2017 Spotlight.
 
 ## Original architecture
 This is an example architecture of Residual Attention Network for ImageNet.
