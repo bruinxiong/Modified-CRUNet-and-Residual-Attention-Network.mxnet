@@ -34,7 +34,7 @@ In order to verify the performance of our modified CRUNet 116, we train it with 
 CFP_FP: 0.98386+-0.00542;  
 CFP_FF: 0.99729+-0.00216;  
 CALFW: 0.95933+-0.01119;  
-CPLFW:0.92833+-0.01624;  
+CPLFW: 0.92833+-0.01624;  
 AgeDB30: 0.97983+-0.00765.**  
 All results come from the model trained at epoch 36. Please see this **[link](https://github.com/deepinsight/insightface/issues/215).**
 
