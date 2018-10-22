@@ -78,7 +78,7 @@ we remove the following max pooling layer with 3x3 kernel size and 2 stride.
 
 **This modified Residual Attention Network architecture can be directly integrated into the library of [insightface](https://github.com/deepinsight/insightface).**
 
-**:fire:Note! If you want to train Residual Attention Network, please make sure the MXNet built from source.**
+**:fire:Note! If you want to train Residual Attention Network, please make sure the MXNet built from source.:fire:**
 
 ## Reference
 
